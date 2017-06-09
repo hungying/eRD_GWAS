@@ -1,0 +1,29 @@
+// gensel input file written 2014-09-21 17:51:21.694
+analysisType Bayes
+bayesType BayesC
+chainLength 41000
+burnin 1000
+probFixed 0.995
+varGenotypic 41
+varResidual 41
+nuRes 10
+degreesFreedomEffectVar 4
+outputFreq 100
+seed 1234
+mcmcSamples yes
+plotPosteriors no
+FindScale no
+modelSequence no
+isCategorical no
+linkageMap AGPv2
+addMapInfoToMarkers yes
+windowBV yes
+
+// markerFileName
+markerFileName /mnt/01/hungying/RD_GWAS/SNP0323/imputed_SAM_SNPs_1.2M_cap.gensel.newbin
+
+// phenotypeFileName
+phenotypeFileName /mnt/01/hungying/RD_GWAS/Pheno0323/GenSel/DTA.txt
+
+// mapOrderFileName
+mapOrderFileName /mnt/01/hungying/RD_GWAS/SNP0323/SAM_SNPs_1.2M_switch.map

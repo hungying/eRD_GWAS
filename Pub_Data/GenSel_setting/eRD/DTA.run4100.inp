@@ -1,0 +1,29 @@
+// gensel input file written 2014-09-21 17:51:21.694
+analysisType Bayes
+bayesType BayesB
+chainLength 41000
+burnin 1000
+probFixed 0.995
+varGenotypic 71.1
+varResidual 12.7
+nuRes 10
+degreesFreedomEffectVar 4
+outputFreq 100
+seed 1234
+mcmcSamples yes
+plotPosteriors no
+FindScale no
+modelSequence no
+isCategorical no
+linkageMap AGPv2
+addMapInfoToMarkers yes
+windowBV yes
+
+// markerFileName
+markerFileName /mnt/01/hungying/RD_GWAS/SAM_trc_rpkm_rescaled.txt.newbin
+
+// phenotypeFileName
+phenotypeFileName /mnt/01/hungying/RD_GWAS/Pheno0323/RD/DTA.txt
+
+// mapOrderFileName
+mapOrderFileName /mnt/01/hungying/RD_GWAS/SAM_map.txt

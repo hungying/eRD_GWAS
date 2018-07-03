@@ -2,7 +2,7 @@ The SNP_MLM_GWAS results can be reproduce by GAPIT_pub.R in R. Users need to mod
 
 For Bayseian_Based_GWAS:
 Users need to download GenSel Software and the following GenSel instruction provides the way to download package  
-Òhttps://www.biomedcentral.com/content/supplementary/1471-2105-12-186-S1.PDFÓ
+https://www.biomedcentral.com/content/supplementary/1471-2105-12-186-S1.PDF
 
 The setting file for GenSel in GenSel_setting folder.
 Again, some the file paths need to modify base on different environment.
